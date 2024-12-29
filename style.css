@@ -1,5 +1,9 @@
 .bg-gray{
-    background: #058DCE;
+    background: #136192;
+}
+
+.card{
+    height: 250px;
 }
 
 .card h4{

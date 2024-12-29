@@ -1,0 +1,13 @@
+.bg-gray{
+    background: #058DCE;
+}
+
+.card h4{
+    background: #2FC190;
+}
+
+audio {
+    user-select: none;
+    /* pointer-events: none; */
+    width: 100%;
+}

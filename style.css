@@ -10,6 +10,10 @@
     background: #2FC190;
 }
 
+.bg-vat{
+    background: #136192 !important;
+}
+
 audio {
     user-select: none;
     /* pointer-events: none; */

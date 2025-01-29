@@ -169,9 +169,10 @@
         </div>
     </div>
     <script>
-        // Disable right-click context menu on the audio element
-        document.querySelector('audio').addEventListener('contextmenu', (e) => {
-            e.preventDefault();
+        document.querySelectorAll('audio').forEach(audio => {
+            audio.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+            });
         });
     </script>
 </body>
